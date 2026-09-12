@@ -1,0 +1,54 @@
+# Virtual environment
+.venv/
+venv/
+ENV/
+env/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+dist/
+build/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Large data files (keep scripts, exclude processed data)
+processed/
+processed_ieee/
+processed_ieee_fast/
+processed_ieee_fast2/
+processed_ieee_test/
+data/*.csv
+data/*.xlsx
+
+# Large model checkpoints (keep structure, exclude .pt files)
+checkpoints/*.pt
+
+# Ablation & benchmark results (regenerable)
+ablation_results/
+benchmark_results/
+
+# Temporary files
+*.tmp
+*.log
+*.out
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb
+
+# wandb
+wandb/

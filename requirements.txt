@@ -1,0 +1,20 @@
+torch>=2.0.0
+torchvision>=0.14.0
+pandas>=1.5
+# Note: some binary packages have strict Python-version constraints.
+# If you see "Requires-Python <3.11" errors, create a venv with Python 3.10.
+numpy
+pandas>=1.5
+scikit-learn>=1.1
+imbalanced-learn>=0.10
+snntorch>=0.4.0
+tqdm
+matplotlib
+seaborn
+scipy
+joblib
+# Optional logging/experiment tracking
+wandb
+# Research / specialty packages (install from source if needed):
+# mamba-ssm: continuous-time state space models (install from its repo or pip if available)
+# kan: Kolmogorov-Arnold Network implementation (install from research repo or pip if available)
